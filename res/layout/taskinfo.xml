@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/TitleBar"
+        android:layout_weight="0.01">
+
+        <TextView
+            android:id="@+id/taskname"
+            style="@style/TitleBarText"
+            android:gravity="left|center_vertical"
+            android:text="task" android:textSize="12sp"/>
+
+<TextView
+            android:id="@+id/taskstatus"
+            style="@style/TitleBarText"
+            android:gravity="right|center_vertical"
+            android:text="status" android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/TitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip" android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Условие" android:textStyle="bold" android:textColor="@color/yellowlight"/>
+
+            <TextView
+                android:id="@+id/condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пример ввода" android:textStyle="bold" android:textColor="@color/yellowlight"/>
+
+            <TextView
+                android:id="@+id/input_eg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пример вывода" android:textStyle="bold" android:textColor="@color/yellowlight"/>
+
+            <TextView
+                android:id="@+id/output_eg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ошибки" android:textStyle="bold" android:textColor="@color/yellowlight"/>
+
+            <TextView
+                android:id="@+id/mistakes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/code_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCodeClick"
+        android:text="Code"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+</LinearLayout>

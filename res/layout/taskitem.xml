@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/oneitem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="true" android:onClick="onTaskClick">
+
+    <TextView
+        android:id="@+id/itemtask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="0.25"
+        android:gravity="center_vertical"
+        android:text="Textqadqasdfasdfffasdfadsfadsfadsfa"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/statLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.45"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/itemstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dip"
+            android:gravity="right"
+            android:text="TextViewefwfsdf"
+            android:textColor="@color/elecgreen"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="sefsfsefsefsefefsefsefsefsefsefesefsefsefs"
+            android:textColor="@color/wgrey"
+            android:textSize="12dip" />
+    </LinearLayout>
+
+</LinearLayout>

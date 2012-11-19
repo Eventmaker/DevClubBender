@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center"
+    android:background="@color/black"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical"
+    android:padding="5sp" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/TitleBar"
+        android:layout_height="55dip" >
+
+        <TextView
+            android:id="@+id/bender"
+            style="@style/TitleBarText"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dip"
+            android:text="@string/reference"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/TitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="0dip" >
+
+        <Button
+            android:id="@+id/button_codstyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/terminal"
+            android:clickable="true"
+            android:onClick="onCodstyleClick"
+            android:text="Правила написания кода"
+            android:textColor="@color/yellowlight"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_Mingw"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/terminal"
+            android:clickable="true"
+            android:onClick="onMinClick"
+            android:text="Команды MinGW"
+            android:textColor="@color/yellowlight"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/terminal"
+            android:clickable="true"
+            android:onClick="onThemesClick"
+            android:text="Темы уикендов"
+            android:textColor="@color/yellowlight"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/TitleBar"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/code_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="task"
+                android:textColor="@color/elecorange"
+                android:typeface="monospace" android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/code_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="status"
+                android:textColor="@color/elecorange"
+                android:typeface="monospace" android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отправить" android:typeface="monospace" android:onClick="onSend"/>
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_weight="1"/>
+
+</LinearLayout>

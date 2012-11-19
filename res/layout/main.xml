@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center"
+    android:background="@color/black"
+    android:gravity="center_vertical|center"
+    android:orientation="vertical"
+    android:padding="5sp" >
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/TitleBar" android:layout_height="55dip">
+
+        <TextView
+            android:id="@+id/bender"
+            style="@style/TitleBarText"
+            android:gravity="left|center_vertical"
+            android:text="@string/bender"
+            android:textSize="20sp" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/TitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="6dip">
+
+        <LinearLayout
+            style="@style/ActivityBody"
+            android:layout_weight="2" android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="30dip"
+                android:orientation="vertical" android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/tasksImg"
+                    style="@style/Home"
+                    android:onClick="onTaskList"
+                    android:src="@drawable/tasklistblue" />
+
+                <TextView
+                    android:id="@+id/taskstxt"
+                    style="@style/HomeText"
+                    android:text="@string/tasks" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:orientation="vertical" android:layout_marginRight="40dip" android:layout_marginLeft="40dip" android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/complexityimg"
+                    style="@style/Home"
+                    android:onClick="onComplexity"
+                    android:src="@drawable/complexityblue" />
+
+                <TextView
+                    android:id="@+id/complexitytxt"
+                    style="@style/HomeText"
+                    android:text="@string/complexity" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ActivityBody"
+            android:layout_weight="2" android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="40dip"
+                android:orientation="vertical" android:layout_weight="1" android:layout_marginTop="20dip">
+
+                <ImageView
+                    android:id="@+id/search"
+                    style="@style/Home"
+                    android:onClick="onDocs"
+                    android:src="@drawable/referenceblue" />
+
+                <TextView
+                    android:id="@+id/reference"
+                    style="@style/HomeText"
+                    android:text="@string/reference"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="40dip"
+                android:orientation="vertical" android:layout_marginRight="40dip" android:layout_weight="1" android:layout_marginTop="20dip">
+
+                <ImageView
+                    android:id="@+id/preferenses"
+                    style="@style/Home"
+                    android:onClick="onPreferenses"
+                    android:src="@drawable/codstyleblue" />
+
+                <TextView
+                    android:id="@+id/Preferenses"
+                    style="@style/HomeText"
+                    android:text="@string/preferenses" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

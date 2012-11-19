@@ -1,0 +1,265 @@
+========== Aapt ==========
+Found 0 custom asset files in /sdcard/andjedi/projects/BENDER/assets/
+Locale/Vendor pairs:
+   /
+   /
+   /
+   /
+
+Files:
+  drawable/bg_state.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable/bg_state.xml
+  drawable/hbutton.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable/hbutton.xml
+  drawable/hbutton_focused.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable/hbutton_focused.xml
+  drawable/hbutton_normal.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable/hbutton_normal.xml
+  drawable/hbutton_pressed.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable/hbutton_pressed.xml
+  drawable/ic_launcher.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable/ic_launcher.png
+  drawable-hdpi/about.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/about.png
+  drawable-hdpi/background.9.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/background.9.png
+  drawable-hdpi/dashboard.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/dashboard.png
+  drawable-hdpi/home_def.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/home_def.png
+  drawable-hdpi/icon.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/icon.png
+  drawable-hdpi/item_focused.9.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/item_focused.9.png
+  drawable-hdpi/item_pressed.9.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/item_pressed.9.png
+  drawable-hdpi/message.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/message.png
+  drawable-hdpi/photoalbum.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/photoalbum.png
+  drawable-hdpi/search.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/search.png
+  drawable-ldpi/icon.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-ldpi/icon.png
+  drawable-mdpi/about.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/about.png
+  drawable-mdpi/dashboard.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/dashboard.png
+  drawable-mdpi/home_def.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/home_def.png
+  drawable-mdpi/icon.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/icon.png
+  drawable-mdpi/item_focused.9.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/item_focused.9.png
+  drawable-mdpi/item_pressed.9.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/item_pressed.9.png
+  drawable-mdpi/message.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/message.png
+  drawable-mdpi/photoalbum.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/photoalbum.png
+  drawable-mdpi/search.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/search.png
+  drawable-mdpi/separator.png
+      Src: /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/separator.png
+  layout/main.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/layout/main.xml
+  values/colors.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/values/colors.xml
+  values/ids.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/values/ids.xml
+  values/strings.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/values/strings.xml
+  values/styles.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/values/styles.xml
+  values/theme.xml
+      Src: /sdcard/andjedi/projects/BENDER/res/values/theme.xml
+  AndroidManifest.xml
+      Src: /sdcard/andjedi/projects/BENDER/AndroidManifest.xml
+Including resources from package: /sdcard/andjedi/libs/2.2_level8.jar
+applyFileOverlay for drawable
+applyFileOverlay for layout
+applyFileOverlay for anim
+applyFileOverlay for xml
+applyFileOverlay for raw
+applyFileOverlay for color
+applyFileOverlay for menu
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/about.png: 85% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/about.png: 57% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/background.9.png: 20% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/dashboard.png: 110% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/dashboard.png: 101% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/home_def.png: 92% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/home_def.png: 52% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable/ic_launcher.png: 96% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/icon.png: 95% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-ldpi/icon.png: 89% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/icon.png: 85% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/item_focused.9.png: 102% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/item_focused.9.png: 25% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/item_pressed.9.png: 102% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/item_pressed.9.png: 25% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/message.png: 53% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/message.png: 53% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/photoalbum.png: 57% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/photoalbum.png: 50% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-hdpi/search.png: 97% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/search.png: 89% size of source)
+    (processed image /sdcard/andjedi/projects/BENDER/res/drawable-mdpi/separator.png: 18% size of source)
+    (new resource id about from drawable-hdpi/about.png #generated)
+    (new resource id about from drawable-hdpi/about.png #generated)
+    (new resource id background from drawable-hdpi/background.9.png #generated)
+    (new resource id bg_state from /sdcard/andjedi/projects/BENDER/res/drawable/bg_state.xml)
+    (new resource id dashboard from drawable-hdpi/dashboard.png #generated)
+    (new resource id dashboard from drawable-hdpi/dashboard.png #generated)
+    (new resource id hbutton from /sdcard/andjedi/projects/BENDER/res/drawable/hbutton.xml)
+    (new resource id hbutton_focused from /sdcard/andjedi/projects/BENDER/res/drawable/hbutton_focused.xml)
+    (new resource id hbutton_normal from /sdcard/andjedi/projects/BENDER/res/drawable/hbutton_normal.xml)
+    (new resource id hbutton_pressed from /sdcard/andjedi/projects/BENDER/res/drawable/hbutton_pressed.xml)
+    (new resource id home_def from drawable-hdpi/home_def.png #generated)
+    (new resource id home_def from drawable-hdpi/home_def.png #generated)
+    (new resource id ic_launcher from drawable/ic_launcher.png #generated)
+    (new resource id icon from drawable-hdpi/icon.png #generated)
+    (new resource id icon from drawable-hdpi/icon.png #generated)
+    (new resource id icon from drawable-hdpi/icon.png #generated)
+    (new resource id item_focused from drawable-hdpi/item_focused.9.png #generated)
+    (new resource id item_focused from drawable-hdpi/item_focused.9.png #generated)
+    (new resource id item_pressed from drawable-hdpi/item_pressed.9.png #generated)
+    (new resource id item_pressed from drawable-hdpi/item_pressed.9.png #generated)
+    (new resource id message from drawable-hdpi/message.png #generated)
+    (new resource id message from drawable-hdpi/message.png #generated)
+    (new resource id photoalbum from drawable-hdpi/photoalbum.png #generated)
+    (new resource id photoalbum from drawable-hdpi/photoalbum.png #generated)
+    (new resource id search from drawable-hdpi/search.png #generated)
+    (new resource id search from drawable-hdpi/search.png #generated)
+    (new resource id separator from drawable-mdpi/separator.png #generated)
+    (new resource id main from /sdcard/andjedi/projects/BENDER/res/layout/main.xml)
+  Writing symbols for class R.
+Opening '/sdcard/andjedi/projects/BENDER/out/BENDER.apk.res'
+Writing all files...
+      'res/drawable/bg_state.xml' (compressed 66%)
+      'res/drawable/hbutton.xml' (compressed 62%)
+      'res/drawable/hbutton_focused.xml' (compressed 59%)
+      'res/drawable/hbutton_normal.xml' (compressed 60%)
+      'res/drawable/hbutton_pressed.xml' (compressed 60%)
+      'res/drawable/ic_launcher.png' (not compressed)
+      'res/layout/main.xml' (compressed 73%)
+      'AndroidManifest.xml' (compressed 61%)
+      'resources.arsc' (not compressed)
+      'res/drawable-hdpi/about.png' (not compressed)
+      'res/drawable-hdpi/background.9.png' (not compressed)
+      'res/drawable-hdpi/dashboard.png' (not compressed)
+      'res/drawable-hdpi/home_def.png' (not compressed)
+      'res/drawable-hdpi/icon.png' (not compressed)
+      'res/drawable-hdpi/item_focused.9.png' (not compressed)
+      'res/drawable-hdpi/item_pressed.9.png' (not compressed)
+      'res/drawable-hdpi/message.png' (not compressed)
+      'res/drawable-hdpi/photoalbum.png' (not compressed)
+      'res/drawable-hdpi/search.png' (not compressed)
+      'res/drawable-ldpi/icon.png' (not compressed)
+      'res/drawable-mdpi/about.png' (not compressed)
+      'res/drawable-mdpi/dashboard.png' (not compressed)
+      'res/drawable-mdpi/home_def.png' (not compressed)
+      'res/drawable-mdpi/icon.png' (not compressed)
+      'res/drawable-mdpi/item_focused.9.png' (not compressed)
+      'res/drawable-mdpi/item_pressed.9.png' (not compressed)
+      'res/drawable-mdpi/message.png' (not compressed)
+      'res/drawable-mdpi/photoalbum.png' (not compressed)
+      'res/drawable-mdpi/search.png' (not compressed)
+      'res/drawable-mdpi/separator.png' (not compressed)
+Generated 30 files
+Included 0 files from jar/zip files.
+Checking for deleted files
+Done!
+========== Compile ==========
+Annotation processing got disabled, since it requires a 1.6 compliant JVM
+[parsing    /sdcard/andjedi/projects/BENDER/src/org/BENDER/eventmaker/BENDERActivity.java - #1/1]
+[reading    android/app/Activity.class]
+[reading    android/view/ContextThemeWrapper.class]
+[reading    android/content/ContextWrapper.class]
+[reading    android/content/Context.class]
+[reading    java/lang/Object.class]
+[reading    android/content/ComponentCallbacks.class]
+[reading    android/view/View$OnCreateContextMenuListener.class]
+[reading    android/view/View.class]
+[reading    android/view/KeyEvent$Callback.class]
+[reading    android/view/KeyEvent.class]
+[reading    android/os/Parcelable$Creator.class]
+[reading    android/os/Parcelable.class]
+[reading    android/view/Window$Callback.class]
+[reading    android/view/Window.class]
+[reading    android/view/LayoutInflater$Factory.class]
+[reading    android/view/LayoutInflater.class]
+[analyzing  /sdcard/andjedi/projects/BENDER/src/org/BENDER/eventmaker/BENDERActivity.java - #1/1]
+[reading    android/os/Bundle.class]
+[reading    android/widget/TextView.class]
+[reading    java/lang/Override.class]
+[reading    android/content/res/Resources$Theme.class]
+[reading    android/content/res/Resources.class]
+[reading    java/lang/String.class]
+[reading    android/content/Intent.class]
+[reading    android/content/IntentSender.class]
+[reading    android/content/IntentSender$SendIntentException.class]
+[reading    android/content/pm/PackageManager$NameNotFoundException.class]
+[reading    android/content/pm/PackageManager.class]
+[reading    android/net/Uri.class]
+[reading    android/content/ComponentName.class]
+[reading    android/content/ServiceConnection.class]
+[reading    android/content/BroadcastReceiver.class]
+[reading    android/os/Handler.class]
+[reading    android/content/IntentFilter.class]
+[reading    java/io/IOException.class]
+[reading    java/io/InputStream.class]
+[reading    android/graphics/Bitmap.class]
+[reading    android/graphics/drawable/Drawable.class]
+[reading    java/io/File.class]
+[reading    android/database/sqlite/SQLiteDatabase.class]
+[reading    android/database/sqlite/SQLiteDatabase$CursorFactory.class]
+[reading    java/io/FileOutputStream.class]
+[reading    java/io/FileNotFoundException.class]
+[reading    java/io/FileInputStream.class]
+[reading    android/content/SharedPreferences.class]
+[reading    android/content/pm/ApplicationInfo.class]
+[reading    java/lang/ClassLoader.class]
+[reading    android/os/Looper.class]
+[reading    android/content/ContentResolver.class]
+[reading    android/content/res/AssetManager.class]
+[reading    android/util/AttributeSet.class]
+[reading    android/view/Menu.class]
+[reading    android/view/WindowManager$LayoutParams.class]
+[reading    android/view/WindowManager.class]
+[reading    android/view/MenuItem.class]
+[reading    android/view/accessibility/AccessibilityEvent.class]
+[reading    android/view/MotionEvent.class]
+[reading    android/view/ContextMenu$ContextMenuInfo.class]
+[reading    android/view/ContextMenu.class]
+[reading    android/content/res/Configuration.class]
+[parsing    /mnt/sdcard/andjedi/projects/BENDER/gen/org/BENDER/eventmaker/R.java - #2/2]
+----------
+1. WARNING in /sdcard/andjedi/projects/BENDER/src/org/BENDER/eventmaker/BENDERActivity.java (at line 5)
+	import android.widget.TextView;
+	       ^^^^^^^^^^^^^^^^^^^^^^^
+The import android.widget.TextView is never used
+----------
+[writing    org/BENDER/eventmaker/BENDERActivity.class - #1]
+[analyzing  /mnt/sdcard/andjedi/projects/BENDER/gen/org/BENDER/eventmaker/R.java - #2/2]
+[completed  /sdcard/andjedi/projects/BENDER/src/org/BENDER/eventmaker/BENDERActivity.java - #1/2]
+[writing    org/BENDER/eventmaker/R$string.class - #2]
+[writing    org/BENDER/eventmaker/R$layout.class - #3]
+[writing    org/BENDER/eventmaker/R$color.class - #4]
+[writing    org/BENDER/eventmaker/R$attr.class - #5]
+[writing    org/BENDER/eventmaker/R$id.class - #6]
+[writing    org/BENDER/eventmaker/R$drawable.class - #7]
+[writing    org/BENDER/eventmaker/R.class - #8]
+[writing    org/BENDER/eventmaker/R$style.class - #9]
+[completed  /mnt/sdcard/andjedi/projects/BENDER/gen/org/BENDER/eventmaker/R.java - #2/2]
+[2 units compiled]
+1 problem (1 warning)[9 .class files generated]
+========== Dx ==========
+Done in 0 sec.
+ExitValue: 0
+========== Build ==========
+Done in 0 sec.
+ExitValue: 0
+========== Sign ==========
+Done in 0 sec.
+ExitValue: 0

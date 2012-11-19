@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/TitleBar"
+        android:layout_height="55dip" >
+
+        <TextView
+            android:id="@+id/bender"
+            style="@style/TitleBarText"
+            android:gravity="right|center_vertical"
+            android:text="@string/mingw_commands" />
+    </LinearLayout>
+
+    <ScrollView
+        style="@style/TitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/about_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mingw_text"
+            android:textColor="@color/wgrey" />
+    </ScrollView>
+
+</LinearLayout>
